@@ -40,6 +40,10 @@
     /* border: 5px solid black; */
 }
 
+span a{
+    color: white;
+}
+
 .header-desc{
     margin: 20px 0;
 }
