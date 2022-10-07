@@ -51,7 +51,7 @@ const Header = ({type}) => {
                     
                  <div className='header-list-item active'>
                     <FontAwesomeIcon icon={faBed} />
-                    <span>Stays</span>
+                    <span><Link to="/hotel/:id">Stays</Link></span>
                 </div>
                 
                 <div className='header-list-item'>
