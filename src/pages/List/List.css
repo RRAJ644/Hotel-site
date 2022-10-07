@@ -1,0 +1,119 @@
+.list-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.list-wrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+}
+
+.list-search{
+    flex:1;
+    background-color: #febb02;
+    padding: 9px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+
+.list-result{
+    flex: 3;
+}
+
+.list-search-title{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.list-search-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list-search-item > label{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.list-search-title > label{
+    font-size: 12px;
+}
+
+.list-search-item > input{
+    height: 30px;
+    border: none;
+}
+
+
+.list-search-option-text{
+    color: black;
+    font-size: 16px;
+}
+
+input[type=text]{
+    text-align: center;
+}
+
+input[type=number]{
+    text-align: center;
+}
+
+small{
+    color: black;
+    padding: 5px;
+}
+
+input::placeholder{
+    color: black;
+    text-align: center;
+}
+
+.list-search-item > span{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.list-search-options{
+    padding: 10px;
+}
+
+.header-search-text{
+    color: black;
+}
+
+.list-search-option-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+
+.list-search-option-input{
+    width: 50px;
+}
+
+.list-search>button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* .list-search-option-item >  */
